@@ -15,5 +15,15 @@ The solution guarantees that:
 If 1 or more readers are reading, then
 
 - Other readers may read as well
-- No writer may perform write function until all readers have finished reading
+- No writer may perform write function until all readers have finished reading]]
+
+# How to Use 
+
+Update the reader and writer count in the algorithm as shown below and compile it
+
+```java
+public static final int readers = [number_of_readers];
+public static final int writers = [number_of_writers];
+```
+   
  
