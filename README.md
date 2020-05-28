@@ -15,7 +15,7 @@ The solution guarantees that:
 If 1 or more readers are reading, then
 
 - Other readers may read as well
-- No writer may perform write function until all readers have finished reading]]
+- No writer may perform write function until all readers have finished reading
 
 ## How to Use 
 
